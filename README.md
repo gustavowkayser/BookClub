@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 📚 Book Club - Biblioteca Virtual
+Book Club é uma biblioteca virtual moderna, desenvolvida para proporcionar acesso fácil e organizado a livros digitais. Com uma interface amigável, responsiva e eficiente, o projeto visa conectar leitores com obras de diversos gêneros em qualquer lugar.
 
-First, run the development server:
+🔗 Acesse o site
+www.bookclub.com
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🧰 Tecnologias utilizadas
+HTML5, CSS3, JavaScript e TypeScript
+
+**Framework**: React / NextJS
+
+**Backend**: Node.js
+
+**Banco de dados**: MongoDB / MySQL
+
+**Hospedagem**: GitHub Pages
+
+**Outros**: Clerk (autenticação) / Google Books API
+
+## 📦 Instalação local
+Clone o repositório:
+
+```
+bash
+git clone https://github.com/seu-usuario/book-club.git
+```
+Navegue até a pasta do projeto:
+
+```
+bash
+cd book-club
+```
+Instale as dependências:
+
+```
+bash
+npm install
+```
+Inicie o servidor local:
+
+```
+bash
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site estará disponível em http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
+- 📖 Catálogo de livros por categoria
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔍 Barra de busca inteligente
 
-## Learn More
+- 🧾 Área de leitura com destaque de texto
 
-To learn more about Next.js, take a look at the following resources:
+- 💾 Salvar livros favoritos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ⭐ Fazer críticas sobre os livros
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🧑‍💼 Área do usuário com histórico de leitura
 
-## Deploy on Vercel
+- 📱 Design responsivo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
